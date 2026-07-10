@@ -1,4 +1,4 @@
-nav a {
+nav {
     color: white;
     padding: 10px;
     display: block;
@@ -44,6 +44,11 @@ p {
 
 h2 {
     text-align: center;
+
+}
+
+h1 {
+    color: steelblue;
 }
 
 footer {
