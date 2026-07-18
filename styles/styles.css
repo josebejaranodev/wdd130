@@ -1,3 +1,41 @@
+* {
+    /*
+
+       Applies the same CSS rules to all elements in the document.
+             It creates a consistent starting point by removing the browser's default
+            margin and padding, making the layout easier to control.
+
+
+        box-sizing: border-box ensures that an element's width and height
+            include its padding and border.
+            
+ */
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.social-icon{
+    width: 32px;
+    height: 32px;
+
+}
+
+.Social-Text{
+    right: 32px;
+}
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: steelblue;
+    color: white;
+    
+    
+}
+
+
 nav {
     color: white;
     padding: 10px;
@@ -15,6 +53,7 @@ nav a {
 
 main {
     max-width: 840px;
+    
 }
 
 main img {
@@ -23,17 +62,14 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 
 }
 
 aside {
     width: 20rem;
-    margin: 1em;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -41,11 +77,12 @@ aside img {
     height: auto;
     display: block;
     margin: 0 auto;
+    
 }
-
-p {
-    padding: 0;
-
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 115px;
 }
 
 h2 {
