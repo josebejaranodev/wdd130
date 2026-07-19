@@ -52,6 +52,10 @@ nav{
     display: flex;
     gap: 20px;
 }
+
+nav a{
+    color: var(--secondary-color);
+}
 .socialmedia a{
     text-decoration: none;
     display:flex;
@@ -105,8 +109,10 @@ section{
     background-color: var(--primary-color);
     color: white
 }
-h2 {
-    
+h2
+h1
+ {
+    font-family: var(--heading-font);
     color: white;
     text-align: center;
     padding: 15px;
