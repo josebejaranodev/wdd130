@@ -1,0 +1,114 @@
+* {
+    /*
+
+       Applies the same CSS rules to all elements in the document.
+             It creates a consistent starting point by removing the browser's default
+            margin and padding, making the layout easier to control.
+
+
+        box-sizing: border-box ensures that an element's width and height
+            include its padding and border.
+            
+ */
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#264653; ;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font:Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--accent2-color);
+}
+header img{
+    width: 120px;
+}
+body{
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer{
+    width: 840px;
+    margin: 0 auto;
+}
+
+nav,p,section,article   {
+    margin: 16px;
+    padding: 8px;
+    
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.socialmedia a{
+    text-decoration: none;
+    display:flex;
+    gap:15px;
+
+}
+.socialmedia img{
+    width: 40px;
+}
+.hero{
+    position: relative;
+    margin-bottom: 20px;
+}
+.hero > img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero article{
+    position: absolute;
+    padding: 15px;
+
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+.hero article img{
+    float: right;
+    width:  125px;
+    margin-left: 20px;
+}
+.hero h1{
+     position:absolute;
+    top:20px;
+    width:100%;
+    padding:16px;
+
+    text-align:center;
+
+    background-color: rgba(38,70,83,0.7);
+    color:white;
+}
+
+section{
+    margin: 20px 0;
+    padding: 15px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white
+}
+h2 {
+    
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+}
