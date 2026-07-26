@@ -176,6 +176,7 @@ nav a {
     margin-top: 10px;
     font-family: var(--heading-font);
     font-size: 1.05rem;
+    color: var(--secondary-color)
 }
 
 /*galley part */
