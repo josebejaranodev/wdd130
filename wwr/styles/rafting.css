@@ -212,7 +212,9 @@ section img {
 
 h1 {
 
-    color: white;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 20px 0;
 
 }
 
@@ -291,7 +293,7 @@ footer {
 }
 
 .contact-form fieldset {
-    border: 1 px solid white;
+    border: 1px solid white;
     padding: 15px;
 
 }
